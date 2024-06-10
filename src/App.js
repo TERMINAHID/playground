@@ -58,8 +58,8 @@ console.log(result);
 // console.log(cars);
 
 //array
-const cars = ["saab" , "volvo" , "bmw"];
-//console.log[cars];
+//const cars = ["saab" , "volvo" , "bmw"];
+//console.log(cars);
 
 
 //  https://www.w3schools.com/js/js_array_methods.asp
@@ -90,7 +90,9 @@ const cars = ["saab" , "volvo" , "bmw"];
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {result}
+         [cars0]
+        
+
 
         </a>
       </header>
