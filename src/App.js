@@ -41,9 +41,21 @@ let myArray2 = ["mycars"];
 //console.log(lenght);
 
 //array
-const fruits =[ 'bnana' , 'orange' , 'apple' , 'mango']
-let fruit = fruits [fruits.length - 1 ];
+// const fruits =[ 'bnana' , 'orange' , 'apple' , 'mango'];
+// let fruit = fruits [fruits.length - 1 ];
 //console.log(fruit);
+
+
+//array
+const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
+let flen = fruits.length;
+
+let text = '<ul>';
+for (let i = 0; i < flen; i++)
+{text += 'li' + fruits[i] + '</li>';}
+text += '</li>';
+//console.log(fruits);
+
 
 
 
@@ -76,7 +88,7 @@ let fruit = fruits [fruits.length - 1 ];
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {fruit}
+         {fruits}
         
 
 
