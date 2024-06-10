@@ -20,12 +20,27 @@ function App() {
 //  https://www.w3schools.com/js/js_arrays.asp
 
 //array
-const person = ["jhon" , "doe" , 46];
+const person = [ "jhon" , "doe" , "46"];
 //console.log(person)
 
 //array
 // const cars = ["saab" , "volvo" , "bmw" ];
 // console.log(cars);
+
+
+//array
+let myArray0 = ["date.now"];
+let myArray1 = ["myfunction"];
+let myArray2 = ["mycars"];
+//console.log(myArray[0]);
+
+
+//array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.length;
+//console.log(lenght);
+
+
 
 
 //  https://www.w3schools.com/js/js_array_methods.asp
@@ -56,7 +71,7 @@ const person = ["jhon" , "doe" , 46];
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {person[0]}
+         {length}
         
 
 
