@@ -38,13 +38,30 @@ function App() {
 //string
 let text1 = "A";
 let text2 = "B";
-let result = text1 > text2;
+let result = text1 + text2;
 console.log(result);
 
 
 
 // create array and use its methods (5)
 //  https://www.w3schools.com/js/js_arrays.asp
+
+//array
+// const cars = ["saab" , "volvo" , "bmw" ];
+// console.log(cars);
+
+//array
+// const cars = [];
+// cars[0]= "Saab";
+// cars[1]= "Volvo";
+// cars[2]= "BMW";
+// console.log(cars);
+
+//array
+const cars = new array ["saab" , "volvo" , "bmw");
+console.log(new);
+
+
 //  https://www.w3schools.com/js/js_array_methods.asp
 
 
@@ -69,12 +86,13 @@ console.log(result);
           href="https://reactjs.org"
           target="_blank" 
           rel="noopener noreferrer"
-        >//string
+          >//string
         console.log(result)
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {/* {moteghayer} */}
+         {result}
+
         </a>
       </header>
     </div>
