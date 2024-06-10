@@ -58,8 +58,8 @@ console.log(result);
 // console.log(cars);
 
 //array
-const cars = new array ["saab" , "volvo" , "bmw");
-console.log(new);
+const cars = ["saab" , "volvo" , "bmw"];
+console.log[cars];
 
 
 //  https://www.w3schools.com/js/js_array_methods.asp
