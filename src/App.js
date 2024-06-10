@@ -36,9 +36,14 @@ let myArray2 = ["mycars"];
 
 
 //array
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let length = fruits.length;
+//const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//let length = fruits.length;
 //console.log(lenght);
+
+//array
+const fruits =[ 'bnana' , 'orange' , 'apple' , 'mango']
+let fruit = fruits [fruits.length - 1 ];
+//console.log(fruit);
 
 
 
@@ -71,7 +76,7 @@ let length = fruits.length;
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {length}
+         {fruit}
         
 
 
