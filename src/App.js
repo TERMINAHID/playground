@@ -47,15 +47,20 @@ let myArray2 = ["mycars"];
 
 
 //array
-const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
-let flen = fruits.length;
+// const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
+// let flen = fruits.length;
 
-let text = '<ul>';
-for (let i = 0; i < flen; i++)
-{text += 'li' + fruits[i] + '</li>';}
-text += '</li>';
+// let text = '<ul>';
+// for (let i = 0; i < flen; i++)
+// {text += 'li' + fruits[i] + '</li>';}
+// text += '</li>';
 //console.log(fruits);
 
+//array
+const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
+fruits.push ('lemon');
+// adds a new element (lemon) to fruits;
+//const.log(fruits);
 
 
 
