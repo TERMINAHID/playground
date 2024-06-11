@@ -18,59 +18,32 @@ function App() {
 
 // create array and use its methods (5)
 //  https://www.w3schools.com/js/js_arrays.asp
-
-//array
-const person = [ "jhon" , "doe" , "46"];
-//console.log(person)
-
-//array
-// const cars = ["saab" , "volvo" , "bmw" ];
-// console.log(cars);
-
-
-//array
-let myArray0 = ["date.now"];
-let myArray1 = ["myfunction"];
-let myArray2 = ["mycars"];
-//console.log(myArray[0]);
-
-
-//array
-//const fruits = ["Banana", "Orange", "Apple", "Mango"];
-//let length = fruits.length;
-//console.log(lenght);
-
-//array
-// const fruits =[ 'bnana' , 'orange' , 'apple' , 'mango'];
-// let fruit = fruits [fruits.length - 1 ];
-//console.log(fruit);
-
-
-//array
-// const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
-// let flen = fruits.length;
-
-// let text = '<ul>';
-// for (let i = 0; i < flen; i++)
-// {text += 'li' + fruits[i] + '</li>';}
-// text += '</li>';
-//console.log(fruits);
-
-//array
-const fruits = ['bnana' , 'orange' , 'apple' , 'mango'];
-fruits.push ('lemon');
-// adds a new element (lemon) to fruits;
-//const.log(fruits);
-
-
-
-
 //  https://www.w3schools.com/js/js_array_methods.asp
+
+
 
 
 // create object and use its methods (3)
 // https://www.w3schools.com/js/js_objects.asp
 // https://www.w3schools.com/js/js_object_method.asp
+
+
+
+// creat an object
+//const car = {type:'fiat' , model:500 , color:'white'};
+//console.log(car);
+
+
+
+// crear an object
+const person = 
+{
+  firstName : "nahid",
+  lastName : "jafati",
+  age : 30,
+  eyeColor : "blue"
+};
+console.log(person);
 
 
   return (
@@ -93,7 +66,7 @@ fruits.push ('lemon');
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {fruits}
+         {}
         
 
 
