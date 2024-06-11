@@ -35,29 +35,14 @@ function App() {
 
 
 
-// crear an object
-// const person = 
-// {
-//   firstName : "nahid",
-//   lastName : "jafati",
-//   age : 30,
-//   eyeColor : "blue"
-// };
-// console.log(person);
-
-
-
-
-
-//empty object
-const person = {};
+//new object
+const person = new Object();
+//Add properties
 person.firstName = "nahid";
 person.lastName = "jafari";
 person.age = 30;
 person.eyeColor = "blue";
 console.log(person);
-
-
 
 
 
@@ -81,7 +66,7 @@ console.log(person);
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {person.firstName}
+         {person.eyeColor}
         
 
 
