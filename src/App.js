@@ -34,15 +34,11 @@ function App() {
 //console.log(car);
 
 
-
-//new object
-const person = new Object();
-//Add properties
-person.firstName = "nahid";
-person.lastName = "jafari";
-person.age = 30;
-person.eyeColor = "blue";
-console.log(person);
+let x = 5;
+let y = 5;
+let z = 6;
+(x == y)
+ console.log(x);
 
 
 
@@ -66,7 +62,7 @@ console.log(person);
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {person.eyeColor}
+         {}
         
 
 
