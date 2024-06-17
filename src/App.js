@@ -34,11 +34,13 @@ function App() {
 //console.log(car);
 
 
-let x = 5;
-let y = 5;
-let z = 6;
-(x == y)
- console.log(x);
+let user = {
+  id: 1,
+  name: "Ali",
+  age: 12
+  }
+  console.log(user['name']) 
+  console.log(user['age']) 
 
 
 
@@ -62,7 +64,7 @@ let z = 6;
 
          {/*  mahale farakhani function ha va moteghayer ha dar JSX */}
          {/* 2* sample:  */}
-         {}
+         {} 
         
 
 
