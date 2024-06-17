@@ -15,19 +15,21 @@ function App() {
     childObjects: {} // object
   }
 
-  // const object1 = {...sampleObject}
-  // object1.id = 1;
-  //console.log(object1,'object1')
-  // const object2 = {...sampleObject}
-  // object2.id = 2;
-  //console.log(object2,'object2')
-  // const object3 = {...sampleObject}
-  // object3.id = 3;
-  //console.log(object3,'object3')
-//   const Objects =[object1,object2,object3];
-  
-//   const objects = objects.push(object4); 
-//   console.log(objects);
+  const object1 = {...sampleObject}
+  object1.id = 1;
+  console.log(object1,'object1')
+  const object2 = {...sampleObject}
+  object2.id = 2;
+  console.log(object2,'object2')
+  const object3 = {...sampleObject}
+  object3.id = 3;
+  console.log(object3,'object3')
+  const Objects =[object1,object2,object3];
+  let object4 = {...sampleObject,id:4};
+  Objects.push(object4);
+  console.log(Objects,'object4');
+
+
 
 // const [trainingArray, setTrainingArray] = useState(Objects)
 
@@ -152,6 +154,18 @@ function App() {
 // const gr = ["alef","be","jim","dal"];
 // document.getElementById("demo").innerHTML = gr.join(" * ");
 
+
+
+// Array mapp
+// let jhon = {name:"jhon" , lastName:"smith" , id:1};
+// let pete = {name:"pete" , lastName: "hunt" , id:2};
+// let mary = {name:"mary" , lastName:"key" , id:3};
+// let users = [jhon,pete,mary];
+// let userMapped = users.map(user =>({
+//   fullName: `${user.name} ${user.lastName}`,
+//   id: user.id
+// }));
+//   console.log(userMapped[0]);                          //fullName,id
 
 
 // create object and use its methods (3)
