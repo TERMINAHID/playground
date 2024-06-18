@@ -15,19 +15,19 @@ function App() {
     childObjects: {} // object
   }
 
-  const object1 = {...sampleObject}
-  object1.id = 1;
-  console.log(object1,'object1')
-  const object2 = {...sampleObject}
-  object2.id = 2;
-  console.log(object2,'object2')
-  const object3 = {...sampleObject}
-  object3.id = 3;
-  console.log(object3,'object3')
-  const Objects =[object1,object2,object3];
-  let object4 = {...sampleObject,id:4};
-  Objects.push(object4);
-  console.log(Objects,'object4');
+  // const object1 = {...sampleObject}
+  // object1.id = 1;
+  // console.log(object1,'object1')
+  // const object2 = {...sampleObject}
+  // object2.id = 2;
+  // console.log(object2,'object2')
+  // const object3 = {...sampleObject}
+  // object3.id = 3;
+  // console.log(object3,'object3')
+  // const Objects =[object1,object2,object3];
+  // let object4 = {...sampleObject,id:4};
+  // Objects.push(object4);
+  // console.log(Objects,'object4');
 
 
 
@@ -87,7 +87,7 @@ function App() {
 
 
 // Array.forEach(2)
-// let arr =["yek","dow","se"].forEach(console.log);
+//  let arr =["yek","dow","se"].forEach(console.log);
 // let arr =["yek","dow","se"].forEach(alert);
 
 
@@ -157,20 +157,70 @@ function App() {
 
 
 // Array mapp
-// let jhon = {name:"jhon" , lastName:"smith" , id:1};
-// let pete = {name:"pete" , lastName: "hunt" , id:2};
-// let mary = {name:"mary" , lastName:"key" , id:3};
-// let users = [jhon,pete,mary];
-// let userMapped = users.map(user =>({
-//   fullName: `${user.name} ${user.lastName}`,
-//   id: user.id
-// }));
-//   console.log(userMapped[0]);                          //fullName,id
+let jhon = {name:"jhon" , lastName:"smith" , id:1};
+let pete = {name:"pete" , lastName: "hunt" , id:2};
+let mary = {name:"mary" , lastName:"key" , id:3};
+let users = [jhon,pete,mary];
+let userMapped = users.map(user =>({
+  fullName: `${user.name} ${user.lastName}`,
+  id: user.id
+}))
+// console.log(userMapped[0]);                          //fullName,id
+
+
 
 
 // create object and use its methods (3)
 // https://www.w3schools.com/js/js_objects.asp
 // https://www.w3schools.com/js/js_object_method.asp
+
+
+
+// object creat/add/delet
+// let user = {};
+// user.name ="jhon";
+// user.surname= "smith";
+// user.name = "pit";
+// delete user.name;
+// console.log(user);
+
+
+// object for...in /addition
+// let salaries ={
+//   jhon:100,
+//   ann:160,
+//   pete:130,
+// };
+// let sum =0;
+
+// for (let key in salaries)
+// {sum += salaries[key];
+// }
+// console.log(sum);
+// alert(sum);
+
+
+
+
+
+// Object Multiplication
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "my menu"
+// };
+// multiplayNumeric(menu);
+//   function multiplayNumeric(obj){
+//     for (let key in obj) {
+//       if (typeof obj[key] == 'number'){
+//         obj[key] *= 2;
+//       }
+//     }
+//   }
+// console.log(menu);
+// alert(menu);
+
+
 
 // sampling Object by alireza::
 // refrence object::
