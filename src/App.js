@@ -15,31 +15,31 @@ function App() {
     childObjects: {} // object
   }
 
-  const object1 = {...sampleObject}
-  object1.id = 1;
-  console.log(object1,'object1')
-  const object2 = {...sampleObject}
-  object2.id = 2;
-  console.log(object2,'object2')
-  const object3 = {...sampleObject}
-  object3.id = 3;
-  console.log(object3,'object3')
-  const Objects =[object1,object2,object3];
-  let object4 = {...sampleObject,id:4};
-  Objects.push(object4);
-  console.log(Objects,'object4');
-  let id1= 1;
-  Object.assign(object1,{object1,id1});
-  console.log(object1);
-  let name = "nahid";
-  Object.assign(object2,{name});
-  console.log(object2);
-let isActive= true;
-Object.assign(object3,{isActive});
-console.log(object3);
-let childObjects={size:36,high:182};
-Object.assign(object4,childObjects);
-console.log(object4);
+//   const object1 = {...sampleObject}
+//   object1.id = 1;
+//   console.log(object1,'object1')
+//   const object2 = {...sampleObject}
+//   object2.id = 2;
+//   console.log(object2,'object2')
+//   const object3 = {...sampleObject}
+//   object3.id = 3;
+//   console.log(object3,'object3')
+//   const Objects =[object1,object2,object3];
+//   let object4 = {...sampleObject,id:4};
+//   Objects.push(object4);
+//   console.log(Objects,'object4');
+//   let id1= 1;
+//   Object.assign(object1,{object1,id1});
+//   console.log(object1);
+//   let name = "nahid";
+//   Object.assign(object2,{name});
+//   console.log(object2);
+// let isActive= true;
+// Object.assign(object3,{isActive});
+// console.log(object3);
+// let childObjects={size:36,high:182};
+// Object.assign(object4,childObjects);
+// console.log(object4);
 
 
 
@@ -309,6 +309,14 @@ console.log(object4);
 // {document.write("khodeshe")}
 // else
 // {document.write("noch")}
+
+
+
+
+
+
+
+
 
 
 
