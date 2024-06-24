@@ -253,8 +253,15 @@ function App() {
 // console.log(Object.entries(sampleObject))
 
 // ITERATING OBJECTS
-// sampleObject.childObjects = {childKey1 : 'childValue'}
-// sampleObject.childObjects = {...sampleObject.childObjects, childKey2 : 'childValue2'} // ECMA 2016
+sampleObject.childObjects = {childKey1 : 'childValue'}
+sampleObject.childObjects = {...sampleObject.childObjects, childKey2 : 'childValue2'} // ECMA 2016
+let childKey1 = {...sampleObject, id : 5};
+let childKey2 = {...sampleObject, id : 6 ,name : 'wth'}
+ 
+
+console.log(childKey1 , childKey2);
+
+
 
 // creating instance of object and manipulating it by Nahid
 // ADV sample :: const nahidSampleObject = {...sampleObject, name: "nahidObject"}
